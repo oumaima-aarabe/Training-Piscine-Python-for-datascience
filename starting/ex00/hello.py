@@ -12,19 +12,19 @@ ft_set = {"Hello", "tutu!"}
 #you can perform set op like union inter difference
 
 ft_dict = {"Hello" : "titi!"}
+#a dictionary is an unordered and mutuable collection of key_value pair
+#allows you to associate values with keys and quickly look them up
 
+#modify the string of each data object
+ft_list[1] = "world"
+ft_tuple = tuple(list(ft_tuple[:1]) + ["morocco!"])
+# : allows you to extract a portion  of a sequence exclusively
+ft_set = {"hello", "khouribga"}
+ft_dict["Hello"] = "1337kh"
 
-#the code i need
 
 
 print(ft_list)
 print(ft_tuple)
 print(ft_set)
-
-
-
-
-# ['Hello', 'World!']$
-# ('Hello', 'France!')$
-# {'Hello', 'Paris!'}$
-# {'Hello': '42Paris!'}$
+print(ft_dict)
